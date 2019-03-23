@@ -1,0 +1,49 @@
+<ctrl ng-controller="SearchResultCtrl">
+    <view vlp-page="search_result">
+
+        <vlc-list
+            vlp-id="list_result"
+            vlp-headers="$lexicon.pages.search_result.headers"
+            vlp-columns="15:30:18:10:17:10"
+            vlp-data="search_result">
+
+            <vl-list-item>
+
+                <vl-cell vlp-content="data" vlp-key="tckn" />
+                <vl-cell vlp-content="data" vlp-key="name" />
+                <vl-cell vlp-content="data" vlp-key="phone" />
+                
+                <vl-cell vlp-content="dynamic" vlp-key="status">
+
+                    <vl-cell-dyn vlp-equals="Active">
+                        <vlc-icon vlp-icon="check" vlp-size="tiny" vlp-weight="light" vlp-color="active" />
+                    </vl-cell-dyn>
+                    <vl-cell-dyn vlp-equals="Blocked">
+                        <vlc-icon vlp-icon="ban" vlp-size="tiny" vlp-weight="light" vlp-color="blocked" />
+                    </vl-cell-dyn>
+
+                </vl-cell>
+                
+                <vl-cell vlp-content="dynamic" vlp-key="status" vlp-click="action(row)">
+
+                    <vl-cell-dyn vlp-equals="Blocked">
+                        <vl-text vla-lexicon vla-text="$lexicon.activate" />
+                    </vl-cell-dyn>
+                    <vl-cell-dyn vlp-equals="Active">
+                        <vl-text vla-lexicon vla-text="$lexicon.block" />
+                    </vl-cell-dyn>
+        
+                </vl-cell>
+                
+                <vl-cell vlp-content="static" vlp-click="info(row)">
+
+                    <vlc-icon vlp-icon="info-square" vlp-size="small" vlp-weight="light" vlp-color="info" />
+
+                </vl-cell>
+
+            </vl-list-item>
+
+        </vlc-list>
+
+    </view>
+</ctrl>

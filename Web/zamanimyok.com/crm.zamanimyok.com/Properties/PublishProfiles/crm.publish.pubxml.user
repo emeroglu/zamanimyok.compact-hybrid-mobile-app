@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\SourceTree\zamanımyok\Publish\crm.zamanimyok.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>05/01/2018 03:22:34</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>05/01/2018 03:22:33</publishTime>
+    </File>
+    <File Include="bin/crm.zamanimyok.com.dll">
+      <publishTime>04/29/2018 21:08:45</publishTime>
+    </File>
+    <File Include="bin/crm.zamanimyok.com.pdb">
+      <publishTime>04/29/2018 21:08:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 10:08:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="Files/data/lexicon.json">
+      <publishTime>04/29/2018 21:00:59</publishTime>
+    </File>
+    <File Include="Files/data/pages.json">
+      <publishTime>04/29/2018 21:00:59</publishTime>
+    </File>
+    <File Include="Files/html/pages/search.html">
+      <publishTime>04/29/2018 21:00:59</publishTime>
+    </File>
+    <File Include="Files/html/pages/search_result.html">
+      <publishTime>04/29/2018 21:00:59</publishTime>
+    </File>
+    <File Include="Files/html/pages/version.html">
+      <publishTime>04/29/2018 21:00:59</publishTime>
+    </File>
+    <File Include="Files/js/controllers/search.js">
+      <publishTime>04/29/2018 21:00:59</publishTime>
+    </File>
+    <File Include="Files/js/controllers/search_result.js">
+      <publishTime>04/29/2018 21:00:59</publishTime>
+    </File>
+    <File Include="Files/js/controllers/version.js">
+      <publishTime>04/29/2018 21:00:59</publishTime>
+    </File>
+    <File Include="Files/js/init.js">
+      <publishTime>05/01/2018 03:21:48</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>05/01/2018 03:22:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/29/2018 21:08:45</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

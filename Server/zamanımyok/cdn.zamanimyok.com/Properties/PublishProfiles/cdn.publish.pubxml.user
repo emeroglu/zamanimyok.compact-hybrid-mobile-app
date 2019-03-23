@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\SourceTree\zamanımyok\Publish\cdn.zamanimyok.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>05/06/2018 16:00:05</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>05/06/2018 16:00:05</publishTime>
+    </File>
+    <File Include="bin/cdn.zamanimyok.com.dll">
+      <publishTime>05/04/2018 14:07:03</publishTime>
+    </File>
+    <File Include="bin/cdn.zamanimyok.com.pdb">
+      <publishTime>05/04/2018 14:07:03</publishTime>
+    </File>
+    <File Include="bin/merge.cdn.zamanimyok.com.dll">
+      <publishTime>04/29/2018 20:20:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/01/2018 15:25:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/01/2018 15:21:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/01/2018 15:21:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/01/2018 15:25:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/01/2018 15:25:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/01/2018 15:25:48</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_light_cyrillic.woff2">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_light_latin.woff2">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_light_latin_ext.woff2">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_regular_cyrillic.woff2">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_regular_latin.woff2">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_regular_latin_ext.woff2">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-brands-400.eot">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-brands-400.svg">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-brands-400.ttf">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-brands-400.woff">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-brands-400.woff2">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-light-300.eot">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-light-300.svg">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-light-300.ttf">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-light-300.woff">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-light-300.woff2">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-regular-400.eot">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-regular-400.svg">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-regular-400.ttf">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-regular-400.woff">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-regular-400.woff2">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-solid-900.eot">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-solid-900.svg">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-solid-900.ttf">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-solid-900.woff">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-solid-900.woff2">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Backgrounds/background1.jpg">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Backgrounds/background2.jpg">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Backgrounds/background3.jpg">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Gifs/loading.gif">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/apple.png">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/arrow.png">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/arrow_left.png">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/chrome.png">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/close.png">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/edge.png">
+      <publishTime>05/03/2018 19:28:52</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/explorer.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/firefox.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/full.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/git.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/key.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/logout.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/nav.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/profile.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/ratio.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/safari.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/screen.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/search.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/settings.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/windows_10.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Logo/icon.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Logo/logo.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Logo/logo_white.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Images/Logo/logo_white_with_background.png">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/angular.js">
+      <publishTime>04/25/2018 21:04:33</publishTime>
+    </File>
+    <File Include="Files/Scripts/app.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/directives/attributes/click.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/directives/attributes/if.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/directives/attributes/lexicon.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/directives/attributes/text.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/libs/angular.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/proto.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/bcast.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/css.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/data.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/eval.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/img.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/lexicon.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/platform.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/style.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/view.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/exo2.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-brands.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-brands.min.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-light.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-light.min.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-regular.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-regular.min.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-solid.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-solid.min.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fontawesome-all.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fontawesome-all.min.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fontawesome.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fontawesome.min.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Styles/main.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/asd.json">
+      <publishTime>05/01/2018 02:16:55</publishTime>
+    </File>
+    <File Include="Files/Web/config.json">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/css/style.css">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/app.html">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/bar.html">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/clock.html">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/content.html">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/info.html">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/login.html">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/nav.html">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/app.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/attributes/click.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/attributes/if.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/attributes/lexicon.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/attributes/text.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/button.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/heading.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/icon.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/image.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/list.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/page.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/panel.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/radio.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/scroll.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/space.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/text.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/textbox.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/app.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/background.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/bar.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/clock.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/content.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/frosty.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/info.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/lock.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/login.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/logo.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/nav-item.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/nav.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/pages.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/proto.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/bcast.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/css.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/data.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/eval.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/img.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/lexicon.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/nav.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/path.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/platform.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/style.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/theme.js">
+      <publishTime>05/03/2018 19:28:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/view.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>05/06/2018 16:00:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/04/2018 10:31:10</publishTime>
+    </File>
+    <File Include="Web/css/exo2.css">
+      <publishTime>04/29/2018 20:15:19</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fa-brands.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fa-brands.min.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fa-light.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fa-light.min.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fa-regular.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fa-regular.min.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fa-solid.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fa-solid.min.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fontawesome-all.css">
+      <publishTime>04/29/2018 20:19:34</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fontawesome-all.min.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fontawesome.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/font-awesome/fontawesome.min.css">
+      <publishTime>04/26/2018 01:04:15</publishTime>
+    </File>
+    <File Include="Web/css/main.css">
+      <publishTime>04/26/2018 01:04:25</publishTime>
+    </File>
+    <File Include="Web/css/style.css">
+      <publishTime>04/26/2018 01:04:35</publishTime>
+    </File>
+    <File Include="Web/fonts/Exo 2/exo2_light_cyrillic.woff2">
+      <publishTime>04/26/2018 00:59:13</publishTime>
+    </File>
+    <File Include="Web/fonts/Exo 2/exo2_light_latin.woff2">
+      <publishTime>04/26/2018 00:59:13</publishTime>
+    </File>
+    <File Include="Web/fonts/Exo 2/exo2_light_latin_ext.woff2">
+      <publishTime>04/26/2018 00:59:13</publishTime>
+    </File>
+    <File Include="Web/fonts/Exo 2/exo2_regular_cyrillic.woff2">
+      <publishTime>04/26/2018 00:59:13</publishTime>
+    </File>
+    <File Include="Web/fonts/Exo 2/exo2_regular_latin.woff2">
+      <publishTime>04/26/2018 00:59:13</publishTime>
+    </File>
+    <File Include="Web/fonts/Exo 2/exo2_regular_latin_ext.woff2">
+      <publishTime>04/26/2018 00:59:13</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-brands-400.eot">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-brands-400.svg">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-brands-400.ttf">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-brands-400.woff">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-brands-400.woff2">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-light-300.eot">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-light-300.svg">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-light-300.ttf">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-light-300.woff">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-light-300.woff2">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-regular-400.eot">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-regular-400.svg">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-regular-400.ttf">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-regular-400.woff">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-regular-400.woff2">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-solid-900.eot">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-solid-900.svg">
+      <publishTime>04/26/2018 01:04:56</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-solid-900.ttf">
+      <publishTime>04/26/2018 01:04:57</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-solid-900.woff">
+      <publishTime>04/26/2018 01:04:57</publishTime>
+    </File>
+    <File Include="Web/fonts/font-awesome/fa-solid-900.woff2">
+      <publishTime>04/26/2018 01:04:57</publishTime>
+    </File>
+    <File Include="Web/html/templates/app.html">
+      <publishTime>04/29/2018 21:33:31</publishTime>
+    </File>
+    <File Include="Web/html/templates/bar.html">
+      <publishTime>04/29/2018 21:33:31</publishTime>
+    </File>
+    <File Include="Web/html/templates/clock.html">
+      <publishTime>04/29/2018 21:33:31</publishTime>
+    </File>
+    <File Include="Web/html/templates/content.html">
+      <publishTime>04/29/2018 21:33:31</publishTime>
+    </File>
+    <File Include="Web/html/templates/info.html">
+      <publishTime>04/29/2018 21:33:31</publishTime>
+    </File>
+    <File Include="Web/html/templates/login.html">
+      <publishTime>04/29/2018 21:33:31</publishTime>
+    </File>
+    <File Include="Web/html/templates/nav.html">
+      <publishTime>04/29/2018 21:33:31</publishTime>
+    </File>
+    <File Include="Web/img/backgrounds/background.jpg">
+      <publishTime>04/26/2018 01:03:40</publishTime>
+    </File>
+    <File Include="Web/img/backgrounds/background1.jpg">
+      <publishTime>04/26/2018 01:03:40</publishTime>
+    </File>
+    <File Include="Web/img/backgrounds/background2.jpg">
+      <publishTime>04/29/2018 21:09:48</publishTime>
+    </File>
+    <File Include="Web/img/backgrounds/background3.jpg">
+      <publishTime>04/29/2018 21:10:10</publishTime>
+    </File>
+    <File Include="Web/img/gifs/loading.gif">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/apple.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/arrow.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/arrow_left.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/chrome.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/close.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/edge.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/explorer.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/firefox.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/full.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/git.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/key.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/logout.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/nav.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/profile.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/ratio.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/safari.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/screen.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/search.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/settings.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/icons/windows_10.png">
+      <publishTime>04/26/2018 22:13:56</publishTime>
+    </File>
+    <File Include="Web/img/logo/icon.png">
+      <publishTime>04/26/2018 01:03:32</publishTime>
+    </File>
+    <File Include="Web/img/logo/logo.png">
+      <publishTime>04/26/2018 01:03:32</publishTime>
+    </File>
+    <File Include="Web/img/logo/logo_white.png">
+      <publishTime>04/26/2018 01:03:32</publishTime>
+    </File>
+    <File Include="Web/img/logo/logo_white_with_background.png">
+      <publishTime>04/26/2018 01:03:32</publishTime>
+    </File>
+    <File Include="Web/js/app.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/attributes/click.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/attributes/if.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/attributes/lexicon.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/attributes/text.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/button.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/heading.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/icon.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/image.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/list.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/page.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/panel.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/radio.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/scroll.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/space.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/text.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/components/textbox.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/app.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/background.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/bar.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/clock.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/content.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/frosty.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/info.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/lock.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/login.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/logo.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/nav-item.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/nav.js">
+      <publishTime>04/29/2018 21:28:33</publishTime>
+    </File>
+    <File Include="Web/js/directives/templates/pages.js">
+      <publishTime>04/29/2018 21:28:33</publishTime>
+    </File>
+    <File Include="Web/js/proto.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Web/js/services/bcast.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Web/js/services/css.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/services/data.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Web/js/services/eval.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Web/js/services/img.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Web/js/services/lexicon.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Web/js/services/nav.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/services/path.js">
+      <publishTime>04/29/2018 21:14:29</publishTime>
+    </File>
+    <File Include="Web/js/services/platform.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Web/js/services/style.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Web/js/services/theme.js">
+      <publishTime>04/29/2018 21:24:43</publishTime>
+    </File>
+    <File Include="Web/js/services/view.js">
+      <publishTime>04/25/2018 21:04:56</publishTime>
+    </File>
+    <File Include="Web/libs/angular.js">
+      <publishTime>04/25/2018 21:04:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

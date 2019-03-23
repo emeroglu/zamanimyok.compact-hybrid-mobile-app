@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="878c674469d74d8fb01908876f3db796" Name="Diagram1">
+        <EntityTypeShape EntityType="Model_Test.affCity" Width="1.5" PointX="0.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affDetail" Width="1.5" PointX="9.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affDistrict" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affFranchise" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affKey" Width="1.5" PointX="7.5" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affLocation" Width="1.5" PointX="5.25" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affMember" Width="1.5" PointX="12.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affMemberDetail" Width="1.5" PointX="17.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affMemberKey" Width="1.5" PointX="15" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affPricing" Width="1.5" PointX="12" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affPricingDetail" Width="1.5" PointX="14.25" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affPricingKey" Width="1.5" PointX="12" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affSelf" Width="1.5" PointX="7.5" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.affService" Width="1.5" PointX="9.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authCredential" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authCredentialDetail" Width="1.5" PointX="12" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authCredentialKey" Width="1.5" PointX="9.75" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authDevice" Width="1.5" PointX="8.25" PointY="36.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authInstance" Width="1.5" PointX="12.75" PointY="36.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authInstanceState" Width="1.5" PointX="10.5" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authLogin" Width="1.5" PointX="10.5" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authLoginDetail" Width="1.5" PointX="15.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authLoginKey" Width="1.5" PointX="13.5" PointY="62" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authLoginState" Width="1.5" PointX="8.25" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authMember" Width="1.5" PointX="7.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authMemberDevice" Width="1.5" PointX="17.5" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authModel" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authO" Width="1.5" PointX="6" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authOtp" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authRole" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authScreen" Width="1.5" PointX="6" PointY="36.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.authUseragent" Width="1.5" PointX="6" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.flowImage" Width="1.5" PointX="24.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.flowPhotoshoot" Width="1.5" PointX="22.5" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.flowPhotoshootType" Width="1.5" PointX="20.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.flowRequest" Width="1.5" PointX="15" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.flowRequestDetail" Width="1.5" PointX="17.25" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.flowRequestKey" Width="1.5" PointX="15" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.flowRequestState" Width="1.5" PointX="12.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.flowReservation" Width="1.5" PointX="20.25" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.flowState" Width="1.5" PointX="18" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logBrowser" Width="1.5" PointX="20.75" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logCity" Width="1.5" PointX="26" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logCountry" Width="1.5" PointX="26" PointY="55.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logDesktop" Width="1.5" PointX="25.25" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logDevice" Width="1.5" PointX="23" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logEvent" Width="1.5" PointX="27.5" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logEventDetail" Width="1.5" PointX="32.75" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logEventKey" Width="1.5" PointX="30.5" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logEventType" Width="1.5" PointX="25.25" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logException" Width="1.5" PointX="27.5" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logHttp" Width="1.5" PointX="30.5" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logInteraction" Width="1.5" PointX="30.5" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logInteractionDetail" Width="1.5" PointX="32.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logInteractionKey" Width="1.5" PointX="30.5" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logInteractionType" Width="1.5" PointX="28.25" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logLocation" Width="1.5" PointX="28.25" PointY="55.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logMobile" Width="1.5" PointX="28.25" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logModel" Width="1.5" PointX="26" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logO" Width="1.5" PointX="20.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logRegion" Width="1.5" PointX="26" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logRequest" Width="1.5" PointX="28.25" PointY="63.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logRequestType" Width="1.5" PointX="26" PointY="64.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logResponse" Width="1.5" PointX="28.25" PointY="69.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logResponseType" Width="1.5" PointX="26" PointY="69.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logSession" Width="1.5" PointX="25.25" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.logUseragent" Width="1.5" PointX="20.75" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.serDetail" Width="1.5" PointX="12" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.serKey" Width="1.5" PointX="9.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.serSelf" Width="1.5" PointX="9.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.userAddress" Width="1.5" PointX="12.75" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.userDetail" Width="1.5" PointX="15.75" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.userKey" Width="1.5" PointX="13.5" PointY="54" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.userSelf" Width="1.5" PointX="10.5" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.userVehicle" Width="1.5" PointX="12.75" PointY="48.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.userVehicleDetail" Width="1.5" PointX="15" PointY="48.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.vhcBrand" Width="1.5" PointX="8.25" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.vhcKey" Width="1.5" PointX="12.75" PointY="58" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model_Test.vhcSelf" Width="1.5" PointX="10.5" PointY="49.75" IsExpanded="true" />
+        <AssociationConnector Association="Model_Test.FK__affDistri__CityF__2BDF596C" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affLocati__CityF__2EBBC617" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affDetail__Affil__38453051" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affDetail__KeyFK__3939548A" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affLocati__Distr__2FAFEA50" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affSelf__Franchi__328C56FB" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affSelf__Locatio__33807B34" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affMember__Affil__3D09E56E" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affMember__Membe__3C15C135" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affMember__Membe__3FE65219" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affMember__Membe__42C2BEC4" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affMember__KeyFK__43B6E2FD" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affPricin__Prici__4E347170" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affPricin__Servi__496FBC53" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affPricin__KeyFK__4F2895A9" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__affServic__Affil__46934FA8" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReque__Affil__614745E4" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__serSelf__Affilia__52F9268D" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReque__Servi__632F8E56" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authCrede__Crede__6641052B" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authCrede__Membe__617C500E" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authCrede__KeyFK__67352964" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authDevic__Scree__71B2B7D7" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authDevic__Usera__72A6DC10" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authDevice__OSFK__739B0049" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authLogin__Devic__7C30464A" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authMembe__Devic__776B912D" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authInsta__Login__07A1F8F6" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authInsta__Membe__08961D2F" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authInsta__Statu__098A4168" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReque__Insta__5F5EFD72" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authLogin__Login__01E91FA0" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authLogin__Statu__7D246A83" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authLogin__KeyFK__02DD43D9" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authMembe__Membe__76776CF4" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__authMembe__RoleF__5E9FE363" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__serSelf__MemberF__52050254" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__userSelf__Member__14FBF414" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowImage__Photo__77368703" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowPhoto__Reser__7365F61F" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowPhoto__TypeF__745A1A58" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReque__Addre__6423B28F" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReque__Reque__67F44373" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReque__Serva__623B6A1D" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReque__Statu__6517D6C8" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReque__UserF__605321AB" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReser__Reque__6DAD1CC9" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReque__KeyFK__68E867AC" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__flowReser__Statu__6EA14102" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logDevice__Brows__4D2051A6" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logLocati__CityF__7BDB408F" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logLocati__Count__79F2F81D" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logDeskto__Devic__54C1736E" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logDevice__OSFK__4E1475DF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logDevice__Usera__4C2C2D6D" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logMobile__Devic__50F0E28A" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logSessio__Devic__579DE019" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logEvent__Sessio__5E4ADDA8" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logEvent__TypeFK__5F3F01E1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logEventD__Event__621B6E8C" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logEventD__KeyFK__630F92C5" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logExcept__Sessi__715DB21C" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logHttp__Locatio__0A295FE6" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logHttp__Request__0B1D841F" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logHttp__Respons__0C11A858" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logHttp__Session__09353BAD" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logIntera__Inter__6D8D2138" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logIntera__Sessi__69BC9054" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logIntera__TypeF__6AB0B48D" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logIntera__KeyFK__6E814571" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logLocati__Regio__7AE71C56" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logMobile__Model__51E506C3" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logReques__TypeF__009FF5AC" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logRespon__Reque__0564AAC9" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__logRespon__TypeF__0658CF02" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__serDetail__KeyFK__58B1FFE3" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__serDetail__Serva__57BDDBAA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__userAddre__UserF__1D913A15" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__userDetai__KeyFK__1AB4CD6A" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__userDetai__UserF__19C0A931" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__userVehic__UserF__206DA6C0" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__userVehic__UserV__243E37A4" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__userVehic__Vehic__2161CAF9" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__userVehic__KeyFK__25325BDD" ManuallyRouted="false" />
+        <AssociationConnector Association="Model_Test.FK__vhcSelf__BrandFK__10373EF7" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

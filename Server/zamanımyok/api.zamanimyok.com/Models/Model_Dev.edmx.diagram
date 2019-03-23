@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="63b19141a730405a807d4a505e14ebcc" Name="Diagram1">
+        <EntityTypeShape EntityType="Model_Dev.affCity" Width="1.5" PointX="0.75" PointY="20.875" />
+        <EntityTypeShape EntityType="Model_Dev.affDetail" Width="1.5" PointX="12.75" PointY="20.75" />
+        <EntityTypeShape EntityType="Model_Dev.affDistrict" Width="1.5" PointX="3" PointY="20.875" />
+        <EntityTypeShape EntityType="Model_Dev.affFranchise" Width="1.5" PointX="5.25" PointY="16" />
+        <EntityTypeShape EntityType="Model_Dev.affKey" Width="1.5" PointX="10.5" PointY="11" />
+        <EntityTypeShape EntityType="Model_Dev.affLocation" Width="1.5" PointX="5.25" PointY="20.375" />
+        <EntityTypeShape EntityType="Model_Dev.affMember" Width="1.5" PointX="9.75" PointY="15.625" />
+        <EntityTypeShape EntityType="Model_Dev.affMemberDetail" Width="1.5" PointX="14.25" PointY="15.75" />
+        <EntityTypeShape EntityType="Model_Dev.affMemberKey" Width="1.5" PointX="12" PointY="15.875" />
+        <EntityTypeShape EntityType="Model_Dev.affPricing" Width="1.5" PointX="12" PointY="40.875" />
+        <EntityTypeShape EntityType="Model_Dev.affPricingDetail" Width="1.5" PointX="14.25" PointY="40.625" />
+        <EntityTypeShape EntityType="Model_Dev.affPricingKey" Width="1.5" PointX="12" PointY="45" />
+        <EntityTypeShape EntityType="Model_Dev.affSelf" Width="1.5" PointX="7.5" PointY="20.25" />
+        <EntityTypeShape EntityType="Model_Dev.affService" Width="1.5" PointX="9.75" PointY="34.5" />
+        <EntityTypeShape EntityType="Model_Dev.authCredential" Width="1.5" PointX="9.75" PointY="25.75" />
+        <EntityTypeShape EntityType="Model_Dev.authCredentialDetail" Width="1.5" PointX="19" PointY="32.625" />
+        <EntityTypeShape EntityType="Model_Dev.authCredentialKey" Width="1.5" PointX="16.75" PointY="36.875" />
+        <EntityTypeShape EntityType="Model_Dev.authDevice" Width="1.5" PointX="5.25" PointY="57.375" />
+        <EntityTypeShape EntityType="Model_Dev.authInstance" Width="1.5" PointX="9.75" PointY="53.5" />
+        <EntityTypeShape EntityType="Model_Dev.authInstanceState" Width="1.5" PointX="7.5" PointY="45.25" />
+        <EntityTypeShape EntityType="Model_Dev.authLogin" Width="1.5" PointX="7.5" PointY="55.625" />
+        <EntityTypeShape EntityType="Model_Dev.authLoginDetail" Width="1.5" PointX="9.75" PointY="58.75" />
+        <EntityTypeShape EntityType="Model_Dev.authLoginKey" Width="1.5" PointX="7.5" PointY="61" />
+        <EntityTypeShape EntityType="Model_Dev.authLoginState" Width="1.5" PointX="5.25" PointY="49.25" />
+        <EntityTypeShape EntityType="Model_Dev.authMember" Width="1.5" PointX="7.5" PointY="10.375" />
+        <EntityTypeShape EntityType="Model_Dev.authMemberDevice" Width="1.5" PointX="9.75" PointY="39.125" />
+        <EntityTypeShape EntityType="Model_Dev.authModel" Width="1.5" PointX="0.75" PointY="5.375" />
+        <EntityTypeShape EntityType="Model_Dev.authO" Width="1.5" PointX="3" PointY="58.5" />
+        <EntityTypeShape EntityType="Model_Dev.authOtp" Width="1.5" PointX="2.75" PointY="5.375" />
+        <EntityTypeShape EntityType="Model_Dev.authRole" Width="1.5" PointX="5.25" PointY="11" />
+        <EntityTypeShape EntityType="Model_Dev.authScreen" Width="1.5" PointX="3" PointY="53.125" />
+        <EntityTypeShape EntityType="Model_Dev.authUseragent" Width="1.5" PointX="3" PointY="62.75" />
+        <EntityTypeShape EntityType="Model_Dev.flowImage" Width="1.5" PointX="21.75" PointY="27.25" />
+        <EntityTypeShape EntityType="Model_Dev.flowPhotoshoot" Width="1.5" PointX="19.5" PointY="27.375" />
+        <EntityTypeShape EntityType="Model_Dev.flowPhotoshootType" Width="1.5" PointX="17.25" PointY="22.625" />
+        <EntityTypeShape EntityType="Model_Dev.flowRequest" Width="1.5" PointX="12" PointY="26.5" />
+        <EntityTypeShape EntityType="Model_Dev.flowRequestDetail" Width="1.5" PointX="17.25" PointY="27.375" />
+        <EntityTypeShape EntityType="Model_Dev.flowRequestKey" Width="1.5" PointX="15" PointY="11.625" />
+        <EntityTypeShape EntityType="Model_Dev.flowRequestState" Width="1.5" PointX="9.75" PointY="45.625" />
+        <EntityTypeShape EntityType="Model_Dev.flowReservation" Width="1.5" PointX="14.25" PointY="27.125" />
+        <EntityTypeShape EntityType="Model_Dev.flowReservationDetail" Width="1.5" PointX="16.5" PointY="32.375" />
+        <EntityTypeShape EntityType="Model_Dev.flowReservationKey" Width="1.5" PointX="14.25" PointY="32.625" />
+        <EntityTypeShape EntityType="Model_Dev.flowState" Width="1.5" PointX="12" PointY="33.625" />
+        <EntityTypeShape EntityType="Model_Dev.logBrowser" Width="1.5" PointX="23.75" PointY="22.625" />
+        <EntityTypeShape EntityType="Model_Dev.logCity" Width="1.5" PointX="26" PointY="42.75" />
+        <EntityTypeShape EntityType="Model_Dev.logCountry" Width="1.5" PointX="26" PointY="35" />
+        <EntityTypeShape EntityType="Model_Dev.logDesktop" Width="1.5" PointX="28.25" PointY="20.25" />
+        <EntityTypeShape EntityType="Model_Dev.logDevice" Width="1.5" PointX="26" PointY="17.75" />
+        <EntityTypeShape EntityType="Model_Dev.logEvent" Width="1.5" PointX="33.5" PointY="24.25" />
+        <EntityTypeShape EntityType="Model_Dev.logEventDetail" Width="1.5" PointX="35.75" PointY="24.375" />
+        <EntityTypeShape EntityType="Model_Dev.logEventKey" Width="1.5" PointX="33.5" PointY="29.625" />
+        <EntityTypeShape EntityType="Model_Dev.logEventType" Width="1.5" PointX="31.25" PointY="29.625" />
+        <EntityTypeShape EntityType="Model_Dev.logException" Width="1.5" PointX="30.5" PointY="38.625" />
+        <EntityTypeShape EntityType="Model_Dev.logHttp" Width="1.5" PointX="30.5" PointY="24.125" />
+        <EntityTypeShape EntityType="Model_Dev.logInteraction" Width="1.5" PointX="30.5" PointY="19.25" />
+        <EntityTypeShape EntityType="Model_Dev.logInteractionDetail" Width="1.5" PointX="32.75" PointY="19.375" />
+        <EntityTypeShape EntityType="Model_Dev.logInteractionKey" Width="1.5" PointX="30.5" PointY="14.625" />
+        <EntityTypeShape EntityType="Model_Dev.logInteractionType" Width="1.5" PointX="28.25" PointY="10.625" />
+        <EntityTypeShape EntityType="Model_Dev.logLocation" Width="1.5" PointX="28.25" PointY="38.125" />
+        <EntityTypeShape EntityType="Model_Dev.logMobile" Width="1.5" PointX="28.25" PointY="15.25" />
+        <EntityTypeShape EntityType="Model_Dev.logModel" Width="1.5" PointX="26" PointY="13.375" />
+        <EntityTypeShape EntityType="Model_Dev.logO" Width="1.5" PointX="23.75" PointY="13.375" />
+        <EntityTypeShape EntityType="Model_Dev.logRegion" Width="1.5" PointX="26" PointY="38.875" />
+        <EntityTypeShape EntityType="Model_Dev.logRequest" Width="1.5" PointX="28.25" PointY="4.5" />
+        <EntityTypeShape EntityType="Model_Dev.logRequestType" Width="1.5" PointX="26" PointY="8.75" />
+        <EntityTypeShape EntityType="Model_Dev.logResponse" Width="1.5" PointX="28.25" PointY="30" />
+        <EntityTypeShape EntityType="Model_Dev.logResponseType" Width="1.5" PointX="26" PointY="30.5" />
+        <EntityTypeShape EntityType="Model_Dev.logSession" Width="1.5" PointX="28.25" PointY="24.125" />
+        <EntityTypeShape EntityType="Model_Dev.logUseragent" Width="1.5" PointX="23.75" PointY="18.5" />
+        <EntityTypeShape EntityType="Model_Dev.serDetail" Width="1.5" PointX="15" PointY="20.75" />
+        <EntityTypeShape EntityType="Model_Dev.serKey" Width="1.5" PointX="12.75" PointY="11" />
+        <EntityTypeShape EntityType="Model_Dev.serSelf" Width="1.5" PointX="9.75" PointY="20.625" />
+        <EntityTypeShape EntityType="Model_Dev.userAddress" Width="1.5" PointX="12" PointY="5.75" />
+        <EntityTypeShape EntityType="Model_Dev.userDetail" Width="1.5" PointX="15" PointY="5.75" />
+        <EntityTypeShape EntityType="Model_Dev.userKey" Width="1.5" PointX="12.75" PointY="54" />
+        <EntityTypeShape EntityType="Model_Dev.userSelf" Width="1.5" PointX="9.75" PointY="5.625" />
+        <EntityTypeShape EntityType="Model_Dev.userVehicle" Width="1.5" PointX="12" PointY="0.75" />
+        <EntityTypeShape EntityType="Model_Dev.userVehicleDetail" Width="1.5" PointX="14.25" PointY="0.75" />
+        <EntityTypeShape EntityType="Model_Dev.vhcBrand" Width="1.5" PointX="7.5" PointY="30.125" />
+        <EntityTypeShape EntityType="Model_Dev.vhcKey" Width="1.5" PointX="12" PointY="49.75" />
+        <EntityTypeShape EntityType="Model_Dev.vhcSelf" Width="1.5" PointX="9.75" PointY="30.125" />
+        <AssociationConnector Association="Model_Dev.FK__affDistri__CityF__4089694A" />
+        <AssociationConnector Association="Model_Dev.FK__affLocati__CityF__4365D5F5" />
+        <AssociationConnector Association="Model_Dev.FK__affDetail__Affil__4CEF402F" />
+        <AssociationConnector Association="Model_Dev.FK__affDetail__KeyFK__4DE36468" />
+        <AssociationConnector Association="Model_Dev.FK__affLocati__Distr__4459FA2E" />
+        <AssociationConnector Association="Model_Dev.FK__affSelf__Franchi__473666D9" />
+        <AssociationConnector Association="Model_Dev.FK__affSelf__Locatio__482A8B12" />
+        <AssociationConnector Association="Model_Dev.FK__affMember__Affil__51B3F54C" />
+        <AssociationConnector Association="Model_Dev.FK__affMember__Membe__50BFD113" />
+        <AssociationConnector Association="Model_Dev.FK__affMember__Membe__549061F7" />
+        <AssociationConnector Association="Model_Dev.FK__affMember__Membe__576CCEA2" />
+        <AssociationConnector Association="Model_Dev.FK__affMember__KeyFK__5860F2DB" />
+        <AssociationConnector Association="Model_Dev.FK__affPricin__Prici__62DE814E" />
+        <AssociationConnector Association="Model_Dev.FK__affPricin__Servi__5E19CC31" />
+        <AssociationConnector Association="Model_Dev.FK__affPricin__KeyFK__63D2A587" />
+        <AssociationConnector Association="Model_Dev.FK__affServic__Affil__5B3D5F86" />
+        <AssociationConnector Association="Model_Dev.FK__flowReque__Affil__75F155C2" />
+        <AssociationConnector Association="Model_Dev.FK__serSelf__Affilia__67A3366B" />
+        <AssociationConnector Association="Model_Dev.FK__flowReque__Servi__77D99E34" />
+        <AssociationConnector Association="Model_Dev.FK__authCrede__Crede__7AEB1509" />
+        <AssociationConnector Association="Model_Dev.FK__authCrede__Membe__76265FEC" />
+        <AssociationConnector Association="Model_Dev.FK__authCrede__KeyFK__7BDF3942" />
+        <AssociationConnector Association="Model_Dev.FK__authDevic__Scree__065CC7B5" />
+        <AssociationConnector Association="Model_Dev.FK__authDevic__Usera__0750EBEE" />
+        <AssociationConnector Association="Model_Dev.FK__authDevice__OSFK__08451027" />
+        <AssociationConnector Association="Model_Dev.FK__authLogin__Devic__10DA5628" />
+        <AssociationConnector Association="Model_Dev.FK__authMembe__Devic__0C15A10B" />
+        <AssociationConnector Association="Model_Dev.FK__authInsta__Login__1C4C08D4" />
+        <AssociationConnector Association="Model_Dev.FK__authInsta__Membe__1D402D0D" />
+        <AssociationConnector Association="Model_Dev.FK__authInsta__Statu__1E345146" />
+        <AssociationConnector Association="Model_Dev.FK__flowReque__Insta__74090D50" />
+        <AssociationConnector Association="Model_Dev.FK__authLogin__Login__16932F7E" />
+        <AssociationConnector Association="Model_Dev.FK__authLogin__Statu__11CE7A61" />
+        <AssociationConnector Association="Model_Dev.FK__authLogin__KeyFK__178753B7" />
+        <AssociationConnector Association="Model_Dev.FK__authMembe__Membe__0B217CD2" />
+        <AssociationConnector Association="Model_Dev.FK__authMembe__RoleF__7349F341" />
+        <AssociationConnector Association="Model_Dev.FK__serSelf__MemberF__66AF1232" />
+        <AssociationConnector Association="Model_Dev.FK__userSelf__Member__29A603F2" />
+        <AssociationConnector Association="Model_Dev.FK__flowImage__Photo__10A54BFE" />
+        <AssociationConnector Association="Model_Dev.FK__flowPhoto__Reser__0CD4BB1A" />
+        <AssociationConnector Association="Model_Dev.FK__flowPhoto__TypeF__0DC8DF53" />
+        <AssociationConnector Association="Model_Dev.FK__flowReque__Reque__7BAA2F18" />
+        <AssociationConnector Association="Model_Dev.FK__flowReque__Serva__76E579FB" />
+        <AssociationConnector Association="Model_Dev.FK__flowReque__Statu__78CDC26D" />
+        <AssociationConnector Association="Model_Dev.FK__flowReque__UserF__74FD3189" />
+        <AssociationConnector Association="Model_Dev.FK__flowReser__Reque__0163086E" />
+        <AssociationConnector Association="Model_Dev.FK__flowReque__KeyFK__7C9E5351" />
+        <AssociationConnector Association="Model_Dev.FK__flowReser__Reser__071BE1C4" />
+        <AssociationConnector Association="Model_Dev.FK__flowReser__Statu__02572CA7" />
+        <AssociationConnector Association="Model_Dev.FK__flowReser__KeyFK__081005FD" />
+        <AssociationConnector Association="Model_Dev.FK__logDevice__Brows__17ED6F58" />
+        <AssociationConnector Association="Model_Dev.FK__logLocati__CityF__46A85E41" />
+        <AssociationConnector Association="Model_Dev.FK__logLocati__Count__44C015CF" />
+        <AssociationConnector Association="Model_Dev.FK__logDeskto__Devic__1F8E9120" />
+        <AssociationConnector Association="Model_Dev.FK__logDevice__OSFK__18E19391" />
+        <AssociationConnector Association="Model_Dev.FK__logDevice__Usera__16F94B1F" />
+        <AssociationConnector Association="Model_Dev.FK__logMobile__Devic__1BBE003C" />
+        <AssociationConnector Association="Model_Dev.FK__logSessio__Devic__226AFDCB" />
+        <AssociationConnector Association="Model_Dev.FK__logEvent__Sessio__2917FB5A" />
+        <AssociationConnector Association="Model_Dev.FK__logEvent__TypeFK__2A0C1F93" />
+        <AssociationConnector Association="Model_Dev.FK__logEventD__Event__2CE88C3E" />
+        <AssociationConnector Association="Model_Dev.FK__logEventD__KeyFK__2DDCB077" />
+        <AssociationConnector Association="Model_Dev.FK__logExcept__Sessi__3C2ACFCE" />
+        <AssociationConnector Association="Model_Dev.FK__logHttp__Locatio__54F67D98" />
+        <AssociationConnector Association="Model_Dev.FK__logHttp__Request__55EAA1D1" />
+        <AssociationConnector Association="Model_Dev.FK__logHttp__Respons__56DEC60A" />
+        <AssociationConnector Association="Model_Dev.FK__logHttp__Session__5402595F" />
+        <AssociationConnector Association="Model_Dev.FK__logIntera__Inter__385A3EEA" />
+        <AssociationConnector Association="Model_Dev.FK__logIntera__Sessi__3489AE06" />
+        <AssociationConnector Association="Model_Dev.FK__logIntera__TypeF__357DD23F" />
+        <AssociationConnector Association="Model_Dev.FK__logIntera__KeyFK__394E6323" />
+        <AssociationConnector Association="Model_Dev.FK__logLocati__Regio__45B43A08" />
+        <AssociationConnector Association="Model_Dev.FK__logMobile__Model__1CB22475" />
+        <AssociationConnector Association="Model_Dev.FK__logReques__TypeF__4B6D135E" />
+        <AssociationConnector Association="Model_Dev.FK__logRespon__Reque__5031C87B" />
+        <AssociationConnector Association="Model_Dev.FK__logRespon__TypeF__5125ECB4" />
+        <AssociationConnector Association="Model_Dev.FK__serDetail__KeyFK__6D5C0FC1" />
+        <AssociationConnector Association="Model_Dev.FK__serDetail__Serva__6C67EB88" />
+        <AssociationConnector Association="Model_Dev.FK__userAddre__UserF__323B49F3" />
+        <AssociationConnector Association="Model_Dev.FK__userDetai__KeyFK__2F5EDD48" />
+        <AssociationConnector Association="Model_Dev.FK__userDetai__UserF__2E6AB90F" />
+        <AssociationConnector Association="Model_Dev.FK__userVehic__UserF__3517B69E" />
+        <AssociationConnector Association="Model_Dev.FK__userVehic__UserV__38E84782" />
+        <AssociationConnector Association="Model_Dev.FK__userVehic__Vehic__360BDAD7" />
+        <AssociationConnector Association="Model_Dev.FK__userVehic__KeyFK__39DC6BBB" />
+        <AssociationConnector Association="Model_Dev.FK__vhcSelf__BrandFK__24E14ED5" />
+        <EntityTypeShape EntityType="Model_Dev.payCard" Width="1.5" PointX="9.75" PointY="0.75" />
+        <AssociationConnector Association="Model_Dev.FK__payCard__MemberF__7C343EFD" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

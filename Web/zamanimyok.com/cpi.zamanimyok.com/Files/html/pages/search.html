@@ -1,0 +1,57 @@
+<ctrl ng-controller="SearchCtrl">
+    <view vlp-page="search">
+
+        <vlc-space vlp-dimens="fill:25" />
+
+        <vlc-panel vlp-dimens="300:wrap" vlp-anchor="center">
+
+            <vlc-textbox
+                vla-lexicon
+                vlp-id="txt_search"
+                vlp-type="normal"
+                vlp-input-type="text"
+                vlp-input-placeholder="$lexicon.search"
+                vlp-icon="search"
+                vlp-icon-anchor="left" />
+
+        </vlc-panel>
+
+        <vlc-space vlp-dimens="fill:50" />
+
+        <vlc-heading
+            vla-lexicon
+            vlp-id="customer_type"
+            vlp-text="$lexicon.customer_type" />
+
+        <vlc-radio 
+            vlp-id="rg_customer_type"
+            vlp-items="$lexicon.pages.search.customer_types" />
+
+        <vlc-heading
+            vla-lexicon
+            vlp-id="search_by"
+            vlp-text="$lexicon.search_by" />
+
+        <vlc-radio 
+            vlp-id="rg_search_by"
+            vlp-items="$lexicon.pages.search.search_by_items" />
+
+        <vlc-space vlp-dimens="fill:30" />
+
+        <vlc-text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </vlc-text>
+
+        <vlc-space vlp-dimens="fill:30" />
+
+        <vlc-panel vlp-dimens="120:wrap" vlp-anchor="right">
+
+            <vlc-button 
+                vla-lexicon
+                vlp-id="btn_send"
+                vlp-text="$lexicon.send" />
+
+        </vlc-panel>
+
+    </view>
+</ctrl>

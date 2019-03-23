@@ -1,0 +1,28 @@
+﻿[
+
+  "/Files/services/api.js",
+  "/Files/services/bridge.js",
+  "/Files/services/css.js",
+  "/Files/services/data.js",
+  "/Files/services/http.js",
+  "/Files/services/lexicon.js",
+  "/Files/services/module.js",
+  "/Files/services/path.js",
+  "/Files/services/platform.js",
+  "/Files/services/theme.js",
+  "/Files/services/view.js",
+
+  "/Files/abstract/Module.js",
+  "/Files/abstract/Page.js",
+  "/Files/abstract/View.js",
+  "/Files/abstract/WebRequest.js",
+
+  "/Files/ui/Button.js",
+  "/Files/ui/IconView.js",
+  "/Files/ui/ImageView.js",
+  "/Files/ui/ListView.js",
+  "/Files/ui/NavBar.js",
+  "/Files/ui/Textbox.js",
+  "/Files/ui/TextView.js"
+
+]

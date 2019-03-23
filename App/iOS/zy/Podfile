@@ -1,0 +1,10 @@
+platform :ios, '10.0'
+
+target 'zy' do
+
+    use_frameworks!
+
+    pod 'GoogleMaps'
+    pod 'Alamofire', '~> 4.7'
+    
+end

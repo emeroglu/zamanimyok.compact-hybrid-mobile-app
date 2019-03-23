@@ -1,0 +1,256 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.2.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.2.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C00E9E14-3F9A-477E-B40F-A43AE0486ABD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>app.zamanimyok.com</RootNamespace>
+    <AssemblyName>app.zamanimyok.com</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.5\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.5\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.5\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.5\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.5\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.5\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\abstract\PostLoginPage.js" />
+    <Content Include="Files\config.json" />
+    <Content Include="Files\abstract\Module.js" />
+    <Content Include="Files\abstract\Page.js" />
+    <Content Include="Files\abstract\View.js" />
+    <Content Include="Files\abstract\WebRequest.js" />
+    <Content Include="Files\modules\servant\pages\approveds.js" />
+    <Content Include="Files\modules\servant\pages\price_entrance.js" />
+    <Content Include="Files\modules\user\module.js" />
+    <Content Include="Files\modules\user\pages\about.js" />
+    <Content Include="Files\modules\user\pages\note.js" />
+    <Content Include="Files\modules\user\pages\delivery_address_selection.js" />
+    <Content Include="Files\modules\user\pages\take_over_address_selection.js" />
+    <Content Include="Files\modules\user\pages\reservations.js" />
+    <Content Include="Files\modules\user\pages\preview.js" />
+    <Content Include="Files\modules\user\pages\plate.js" />
+    <Content Include="Files\modules\user\pages\brands.js" />
+    <Content Include="Files\modules\user\pages\models.js" />
+    <Content Include="Files\modules\user\pages\vehicle_selection.js" />
+    <Content Include="Files\modules\user\pages\vehicles.js" />
+    <Content Include="Files\modules\user\pages\addresses.js" />
+    <Content Include="Files\modules\user\pages\address_new.js" />
+    <Content Include="Files\modules\user\pages\address_update.js" />
+    <Content Include="Files\modules\user\pages\contact.js" />
+    <Content Include="Files\modules\user\pages\list.js" />
+    <Content Include="Files\modules\user\pages\landing.js" />
+    <Content Include="Files\modules\prelogin\pages\contact.js" />
+    <Content Include="Files\modules\prelogin\pages\signup_2.js" />
+    <Content Include="Files\modules\prelogin\pages\forgot_3.js" />
+    <Content Include="Files\modules\prelogin\pages\forgot_2.js" />
+    <Content Include="Files\modules\prelogin\pages\signup_3.js" />
+    <Content Include="Files\modules\prelogin\pages\signup_4.js" />
+    <Content Include="Files\modules\user\pages\vehicle_update.js" />
+    <Content Include="Files\modules\servant\module.js" />
+    <Content Include="Files\modules\servant\pages\requests.js" />
+    <Content Include="Files\services\bridge.js" />
+    <Content Include="Files\services\css.js" />
+    <Content Include="Files\services\http.js" />
+    <Content Include="Files\modules\prelogin\config.json" />
+    <Content Include="Files\modules\user\config.json" />
+    <Content Include="Files\modules\servant\config.json" />
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\dev.app.publish.pubxml" />
+    <None Include="Properties\PublishProfiles\prod.app.publish.pubxml" />
+    <None Include="Properties\PublishProfiles\r.dev.app.publish.pubxml" />
+    <None Include="Properties\PublishProfiles\r.prod.app.publish.pubxml" />
+    <None Include="Properties\PublishProfiles\r.test.app.publish.pubxml" />
+    <None Include="Properties\PublishProfiles\test.app.publish.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\services\api.js" />
+    <Content Include="Files\services\data.js" />
+    <Content Include="Files\services\lexicon.js" />
+    <Content Include="Files\services\module.js" />
+    <Content Include="Files\services\nav.js" />
+    <Content Include="Files\services\path.js" />
+    <Content Include="Files\services\platform.js" />
+    <Content Include="Files\services\theme.js" />
+    <Content Include="Files\init.js" />
+    <Content Include="Files\modules\prelogin\module.js" />
+    <Content Include="Files\modules\prelogin\pages\about.js" />
+    <Content Include="Files\modules\prelogin\pages\forgot.js" />
+    <Content Include="Files\modules\prelogin\pages\signin.js" />
+    <Content Include="Files\modules\prelogin\pages\signup.js" />
+    <Content Include="Files\services\page.js" />
+    <Content Include="Files\services\view.js" />
+    <Content Include="Files\ui\ApprovedItem.js" />
+    <Content Include="Files\ui\Lock.js" />
+    <Content Include="Files\ui\ReservationItem.js" />
+    <Content Include="Files\ui\KeyValueItem.js" />
+    <Content Include="Files\ui\AddressSelectionItem.js" />
+    <Content Include="Files\ui\RequestItem.js" />
+    <Content Include="Files\ui\ModelItem.js" />
+    <Content Include="Files\ui\BrandItem.js" />
+    <Content Include="Files\ui\VehiclePreview.js" />
+    <Content Include="Files\ui\VehicleSelectionItem.js" />
+    <Content Include="Files\ui\VehicleItem.js" />
+    <Content Include="Files\ui\AddressItem.js" />
+    <Content Include="Files\ui\CardView.js" />
+    <Content Include="Files\ui\LandingBar.js" />
+    <Content Include="Files\ui\MenuView.js" />
+    <Content Include="Files\ui\Button.js" />
+    <Content Include="Files\ui\IconView.js" />
+    <Content Include="Files\ui\ImageView.js" />
+    <Content Include="Files\ui\ListView.js" />
+    <Content Include="Files\ui\MapView.js" />
+    <Content Include="Files\ui\Confirmation.js" />
+    <Content Include="Files\ui\MessageLine.js" />
+    <Content Include="Files\ui\PreloginButton.js" />
+    <Content Include="Files\ui\PreloginNavBar.js" />
+    <Content Include="Files\ui\PreloginTextbox.js" />
+    <Content Include="Files\ui\Shade.js" />
+    <Content Include="Files\ui\MessageBox.js" />
+    <Content Include="Files\ui\NavBar.js" />
+    <Content Include="Files\ui\Panel.js" />
+    <Content Include="Files\ui\Space.js" />
+    <Content Include="Files\ui\Textarea.js" />
+    <Content Include="Files\ui\Textbox.js" />
+    <Content Include="Files\ui\TextView.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\FileController.cs" />
+    <Compile Include="Controllers\MainController.cs" />
+    <Compile Include="Controllers\SysController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Cache.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DEV|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEV</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TEST|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TEST</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PROD|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>PROD</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54126</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54126/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.2.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.2.1\build\Microsoft.Net.Compilers.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

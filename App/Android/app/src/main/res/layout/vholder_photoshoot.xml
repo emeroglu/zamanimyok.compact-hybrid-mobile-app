@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <FrameLayout
+        android:id="@+id/photoPreviewContainer"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/photoshoot_item_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/photoPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/photoPreviewLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_camera_48"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/photoPreviewSuccessLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_check_circle_green_24dp"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/photoPreviewContainer"
+        tools:text="Sağ Arka" />
+
+
+</android.support.constraint.ConstraintLayout>

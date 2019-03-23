@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFDa26X+T5EaOZb+y1opmfQAAAAACAAAAAAAQZgAAAAEAACAAAAAgmfBaAoTkRhTdNwFHmj1fAY2wEUIrN/zrscz6oytjHAAAAAAOgAAAAAIAACAAAAANh0fczF+QcFP2HZUYGLI9mBUCocnwzOKUqOWF+SeSjCAAAABcU4M8pFy/8ak6ez6c0+eAuJi0nDkrJk3E5t7pfC1yQ0AAAABg0a4CRK/RDqAlw7NqJJNTT+Yy3nRP66nO6ZQAbTYSrbraGV1bgfvizupv4oTXzYKH2/fU6M4mNHcFM+eZWaxh</EncryptedPassword>
+    <_PublishTargetUrl>ftp://37.230.109.73/httpdocs/cdn.zamanimyok.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>09/30/2018 11:52:44</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>09/30/2018 11:52:44</publishTime>
+    </File>
+    <File Include="bin/cdn.zamanimyok.com.dll">
+      <publishTime>09/30/2018 11:52:41</publishTime>
+    </File>
+    <File Include="bin/cdn.zamanimyok.com.pdb">
+      <publishTime>09/30/2018 11:52:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/01/2018 15:25:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/01/2018 15:21:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/01/2018 15:21:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/01/2018 15:25:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/01/2018 15:25:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/01/2018 15:25:48</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_extra_light_cyrillic.woff2">
+      <publishTime>05/16/2018 01:12:41</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_extra_light_latin.woff2">
+      <publishTime>05/16/2018 01:12:41</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_extra_light_latin_ext.woff2">
+      <publishTime>05/16/2018 01:12:41</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_light_cyrillic.woff2">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_light_latin.woff2">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_light_latin_ext.woff2">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_regular_cyrillic.woff2">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_regular_latin.woff2">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/Exo 2/exo2_regular_latin_ext.woff2">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-brands-400.eot">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-brands-400.svg">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-brands-400.ttf">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-brands-400.woff">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-brands-400.woff2">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-light-300.eot">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-light-300.svg">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-light-300.ttf">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-light-300.woff">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-light-300.woff2">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-regular-400.eot">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-regular-400.svg">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-regular-400.ttf">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-regular-400.woff">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-regular-400.woff2">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-solid-900.eot">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-solid-900.svg">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-solid-900.ttf">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-solid-900.woff">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Fonts/font-awesome/fa-solid-900.woff2">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Affiliates/autowax.jpg">
+      <publishTime>08/26/2018 23:29:41</publishTime>
+    </File>
+    <File Include="Files/Images/Affiliates/autowax.png">
+      <publishTime>08/30/2018 19:11:36</publishTime>
+    </File>
+    <File Include="Files/Images/Affiliates/freshcar.png">
+      <publishTime>07/15/2018 12:58:39</publishTime>
+    </File>
+    <File Include="Files/Images/Affiliates/meguairs.png">
+      <publishTime>08/26/2018 23:28:22</publishTime>
+    </File>
+    <File Include="Files/Images/Backgrounds/background1.jpg">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Backgrounds/background2.jpg">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Backgrounds/background3.jpg">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Backgrounds/background_login.jpg">
+      <publishTime>05/11/2018 21:07:40</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/acura.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/alfa_romeo.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/anadol.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/aston_martin.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/audi.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/bentley.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/bmw.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/bugatti.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/buick.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/cadillac.jpg">
+      <publishTime>08/15/2018 13:41:57</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/cadillac.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/chery.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/chevrolet.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/chrysler.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/citroen.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/dacia.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/daewoo.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/daihatsu.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/dodge.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/ds.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/ferrari.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/fiat.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/ford.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/geely.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/honda.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/hyundai.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/ikco.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/infiniti.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/jaguar.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/kia.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/kral.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/lada.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/lamborghini.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/lancia.jpeg">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/lexus.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/lincoln.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/maserati.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/maybach.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/mazda.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/mclaren.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/mercedes.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/mini.jpg">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/mini.png">
+      <publishTime>08/15/2018 13:41:57</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/mitsubishi.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/nissan.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/opel.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/pagani.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/peugeot.jpeg">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/peugeot.png">
+      <publishTime>08/15/2018 13:41:57</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/plymouth.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/pontiac.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/porsche.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/proton.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/renault.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/rolls_royce.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/rover.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/saab.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/seat.jpg">
+      <publishTime>08/15/2018 13:41:57</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/seat.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/skoda.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/smart.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/subaru.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/suzuki.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/tata.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/tesla.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/tofas.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/toyota.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/volkswagen.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/volkwagen.png">
+      <publishTime>08/15/2018 13:41:57</publishTime>
+    </File>
+    <File Include="Files/Images/Brands/volvo.png">
+      <publishTime>08/20/2018 21:40:39</publishTime>
+    </File>
+    <File Include="Files/Images/Clients/freshcar.png">
+      <publishTime>07/15/2018 12:58:39</publishTime>
+    </File>
+    <File Include="Files/Images/Gifs/loading.gif">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/apple.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/arrow.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/arrow_left.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/chrome.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/close.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/edge.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/explorer.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/firefox.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/full.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/git.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/key.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/logout.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/nav.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/profile.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/ratio.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/safari.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/screen.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/search.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/settings.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/vallet.png">
+      <publishTime>09/30/2018 11:52:20</publishTime>
+    </File>
+    <File Include="Files/Images/Icons/windows_10.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Logo/icon.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Logo/logo.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Logo/logo_white.png">
+      <publishTime>07/05/2018 10:08:51</publishTime>
+    </File>
+    <File Include="Files/Images/Logo/logo_white_with_background.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Images/Servants/ahmet.jpeg">
+      <publishTime>09/29/2018 02:57:47</publishTime>
+    </File>
+    <File Include="Files/Scripts/app.js">
+      <publishTime>08/30/2018 17:46:53</publishTime>
+    </File>
+    <File Include="Files/Scripts/directives/attributes/click.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/directives/attributes/if.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/directives/attributes/lexicon.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/directives/attributes/text.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/libs/angular.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/proto.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/bcast.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/css.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/data.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/eval.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/img.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/lexicon.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/platform.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/style.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Scripts/services/view.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/exo2.css">
+      <publishTime>08/30/2018 17:46:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-brands.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-brands.min.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-light.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-light.min.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-regular.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-regular.min.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-solid.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fa-solid.min.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fontawesome-all.css">
+      <publishTime>08/30/2018 17:46:53</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fontawesome-all.min.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fontawesome.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/font-awesome/fontawesome.min.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Styles/main.css">
+      <publishTime>08/19/2018 19:56:32</publishTime>
+    </File>
+    <File Include="Files/Web/config.json">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/css/style.css">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/app.html">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/bar.html">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/clock.html">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/content.html">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/info.html">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/login.html">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/html/templates/nav.html">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/button.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/heading.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/icon.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/image.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/list.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/page.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/panel.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/radio.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/scroll.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/space.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/text.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/components/textbox.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/app.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/background.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/bar.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/clock.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/content.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/frosty.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/info.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/lock.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/login.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/logo.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/nav-item.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/nav.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/directives/templates/pages.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/nav.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/path.js">
+      <publishTime>08/30/2018 17:46:53</publishTime>
+    </File>
+    <File Include="Files/Web/js/services/theme.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/30/2018 11:52:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

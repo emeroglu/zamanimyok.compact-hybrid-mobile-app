@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.zamanimyok"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    flavorDimensions "api"
+
+    productFlavors {
+        dev {
+            applicationId defaultConfig.applicationId + ".dev"
+            manifestPlaceholders = [flavor: "dev"]
+            buildConfigField "String", "URL", "\"https://app.zamanimyok.com\""
+            buildConfigField "String", "API", "\"https://api.zamanimyok.com\""
+            resValue "string", "app_name", "zy-dev"
+        }
+        teest {
+            applicationId defaultConfig.applicationId + ".test"
+            manifestPlaceholders = [flavor: "test"]
+            buildConfigField "String", "URL", "\"https://test-app-zamanimyok.azurewebsites.net\""
+            buildConfigField "String", "API", "\"https://test-api-zamanimyok.azurewebsites.net\""
+            resValue "string", "app_name", "zy-test"
+        }
+        prod {
+            applicationId defaultConfig.applicationId + ".prod"
+            manifestPlaceholders = [flavor: "prod"]
+            buildConfigField "String", "URL", "\"https://app-zamanimyok.azurewebsites.net\""
+            buildConfigField "String", "API", "\"https://api-zamanimyok.azurewebsites.net\""
+            resValue "string", "app_name", "zy-prod"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation "com.squareup.retrofit2:converter-gson:2.3.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava:2.3.0"
+    implementation 'com.github.google:cameraview:-SNAPSHOT'
+    // OkHttp
+    implementation "com.squareup.okhttp3:okhttp:3.10.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:3.8.0"
+    // RX Android
+    implementation "io.reactivex:rxandroid:1.2.1"
+    implementation "io.reactivex:rxjava:1.3.0"
+
+}

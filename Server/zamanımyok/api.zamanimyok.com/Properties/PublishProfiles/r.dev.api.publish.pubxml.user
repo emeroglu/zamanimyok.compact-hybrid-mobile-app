@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO2zns8+F40uxt+LTtbVHVAAAAAACAAAAAAAQZgAAAAEAACAAAAD6rztPU73S80yeCsVQ6pUgUHqBgO9rXwTvnodiqrcR/AAAAAAOgAAAAAIAACAAAAAFXJy2arvpdfyScA9pSeJAKlW/x0kslR4w6l5Ezr6d8SAAAABZv8ssS0KbUMFAJ4bozlkNPvxMEPee3kWI99S7JrvrjkAAAACyIkMikFDK+wl8iurMYShiZCfrFi7f51IYOxGlG6jZ2HvmAyvbbz5ajymYhOMI+s7OOI8fd5ajT9hBm0lLYjop</EncryptedPassword>
+    <_PublishTargetUrl>ftp://37.230.109.73/httpdocs/api.zamanimyok.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/api.zamanimyok.com.dll">
+      <publishTime>10/02/2018 13:43:21</publishTime>
+    </File>
+    <File Include="bin/api.zamanimyok.com.pdb">
+      <publishTime>09/06/2018 17:15:06</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>10/02/2018 13:43:25</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>10/02/2018 13:43:25</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.KeyVault.Core.dll">
+      <publishTime>06/28/2018 21:50:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>08/08/2018 02:32:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Storage.pdb">
+      <publishTime>08/08/2018 01:36:16</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/24/2018 17:44:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/10/2018 22:42:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/10/2018 22:38:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/10/2018 22:38:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/10/2018 22:42:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/10/2018 22:42:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/10/2018 22:42:40</publishTime>
+    </File>
+    <File Include="Files/Uploads/upload_636607220482151497.png">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Models/Model.edmx.diagram">
+      <publishTime>09/06/2018 16:12:17</publishTime>
+    </File>
+    <File Include="Models/Model_Dev.edmx.diagram">
+      <publishTime>09/26/2018 11:01:28</publishTime>
+    </File>
+    <File Include="Models/Model_Test.edmx.diagram">
+      <publishTime>09/22/2018 08:06:20</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>10/02/2018 13:43:23</publishTime>
+    </File>
+    <File Include="Views/Azure/Index.cshtml">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/12/2018 14:47:45</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿[
+  "/Files/modules/user/module.js",
+  "/Files/modules/user/pages/about.js",
+  "/Files/modules/user/pages/address_new.js",
+  "/Files/modules/user/pages/address_update.js",
+  "/Files/modules/user/pages/addresses.js",
+  "/Files/modules/user/pages/brands.js",
+  "/Files/modules/user/pages/contact.js",
+  "/Files/modules/user/pages/delivery_address_selection.js",
+  "/Files/modules/user/pages/landing.js",
+  "/Files/modules/user/pages/list.js",
+  "/Files/modules/user/pages/models.js",
+  "/Files/modules/user/pages/note.js",
+  "/Files/modules/user/pages/plate.js",
+  "/Files/modules/user/pages/preview.js",
+  "/Files/modules/user/pages/reservations.js",
+  "/Files/modules/user/pages/take_over_address_selection.js",
+  "/Files/modules/user/pages/vehicle_update.js",
+  "/Files/modules/user/pages/vehicles.js",
+  "/Files/modules/user/pages/vehicle_selection.js"
+]

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFDa26X+T5EaOZb+y1opmfQAAAAACAAAAAAAQZgAAAAEAACAAAAAErgbA/sqYrM9mkpbd9ikym1p1pDaoy4mTLXmERHUXqQAAAAAOgAAAAAIAACAAAAB6mMfwnR0FSt0MeoX9D9uexMj7m5Rfi9PiMsN3ZdznlyAAAAD//OAJmpWfAiSlLWqiUSoVxMF2fYYeYyDUgm5uYasVHkAAAABS+NyUCJvdekzptwHoEC5bngGAKmvZZ53X+tLAH4TxRpA+F6A2qY+A7ELjtU0DfbsJbPG0sHBqYtvZW5o6c/aA</EncryptedPassword>
+    <_PublishTargetUrl>ftp://37.230.109.73/httpdocs/app.zamanimyok.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/app.zamanimyok.com.dll">
+      <publishTime>07/15/2018 13:21:35</publishTime>
+    </File>
+    <File Include="bin/app.zamanimyok.com.pdb">
+      <publishTime>07/15/2018 13:21:35</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>07/15/2018 13:29:55</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>07/15/2018 13:29:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/01/2018 15:25:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/01/2018 15:21:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/01/2018 15:21:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/01/2018 15:25:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/01/2018 15:25:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/01/2018 15:25:48</publishTime>
+    </File>
+    <File Include="Files/abstract/ArrayOf.js">
+      <publishTime>05/11/2018 20:03:40</publishTime>
+    </File>
+    <File Include="Files/abstract/Component.js">
+      <publishTime>05/14/2018 11:14:02</publishTime>
+    </File>
+    <File Include="Files/abstract/Module.js">
+      <publishTime>05/07/2018 10:08:51</publishTime>
+    </File>
+    <File Include="Files/abstract/Page.js">
+      <publishTime>05/22/2018 16:22:01</publishTime>
+    </File>
+    <File Include="Files/abstract/View.js">
+      <publishTime>05/17/2018 22:29:36</publishTime>
+    </File>
+    <File Include="Files/abstract/WebRequest.js">
+      <publishTime>05/17/2018 18:28:39</publishTime>
+    </File>
+    <File Include="Files/config.json">
+      <publishTime>07/14/2018 18:44:38</publishTime>
+    </File>
+    <File Include="Files/core/abstract/array.js">
+      <publishTime>05/11/2018 20:03:40</publishTime>
+    </File>
+    <File Include="Files/core/abstract/ArrayOf.js">
+      <publishTime>05/11/2018 20:03:40</publishTime>
+    </File>
+    <File Include="Files/core/abstract/component.js">
+      <publishTime>05/13/2018 23:26:17</publishTime>
+    </File>
+    <File Include="Files/core/abstract/module.js">
+      <publishTime>05/13/2018 23:26:31</publishTime>
+    </File>
+    <File Include="Files/core/abstract/page.js">
+      <publishTime>05/13/2018 23:24:44</publishTime>
+    </File>
+    <File Include="Files/core/abstract/view.js">
+      <publishTime>05/13/2018 23:39:56</publishTime>
+    </File>
+    <File Include="Files/core/abstract/WebRequest.js">
+      <publishTime>05/12/2018 20:37:22</publishTime>
+    </File>
+    <File Include="Files/core/services/api.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/services/css.js">
+      <publishTime>05/13/2018 14:04:38</publishTime>
+    </File>
+    <File Include="Files/core/services/data.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/services/http.js">
+      <publishTime>05/12/2018 20:37:20</publishTime>
+    </File>
+    <File Include="Files/core/services/lexicon.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/services/path.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/services/platform.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/services/theme.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/components/ex/icon.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/components/ex/textbox.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/components/SomeComponent.js">
+      <publishTime>05/13/2018 15:06:09</publishTime>
+    </File>
+    <File Include="Files/core/ui/image-view.html">
+      <publishTime>05/12/2018 20:20:19</publishTime>
+    </File>
+    <File Include="Files/core/ui/image.js">
+      <publishTime>05/12/2018 20:34:48</publishTime>
+    </File>
+    <File Include="Files/core/ui/ImageView.js">
+      <publishTime>05/13/2018 23:27:54</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/attributes/text.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/components/icon.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/components/image.js">
+      <publishTime>05/11/2018 20:03:40</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/components/loader.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/components/lock.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/components/page.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/components/shade.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/components/text.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/components/textbox.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/run.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/services/nav.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/js/services/view.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/ui/SomeComponent.js">
+      <publishTime>05/13/2018 15:06:09</publishTime>
+    </File>
+    <File Include="Files/core/ui/views/ImageView.js">
+      <publishTime>05/13/2018 23:27:54</publishTime>
+    </File>
+    <File Include="Files/core/z/css.js">
+      <publishTime>05/13/2018 14:04:38</publishTime>
+    </File>
+    <File Include="Files/core/z/http.js">
+      <publishTime>05/12/2018 20:37:20</publishTime>
+    </File>
+    <File Include="Files/core/z/js/run.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/api.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/bcast.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/config.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/css.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/data.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/eval.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/img.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/lexicon.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/path.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/platform.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/style.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/core/z/js/services/theme.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/css/style.css">
+      <publishTime>05/10/2018 10:56:40</publishTime>
+    </File>
+    <File Include="Files/index.html">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/init.js">
+      <publishTime>05/22/2018 15:50:50</publishTime>
+    </File>
+    <File Include="Files/js/init.js">
+      <publishTime>05/13/2018 22:37:06</publishTime>
+    </File>
+    <File Include="Files/js/proto.js">
+      <publishTime>05/11/2018 20:03:40</publishTime>
+    </File>
+    <File Include="Files/modules/customer/config.json">
+      <publishTime>05/22/2018 15:50:50</publishTime>
+    </File>
+    <File Include="Files/modules/customer/module.js">
+      <publishTime>05/22/2018 15:50:50</publishTime>
+    </File>
+    <File Include="Files/modules/customer/pages/landing.js">
+      <publishTime>07/15/2018 12:36:03</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/config.json">
+      <publishTime>05/22/2018 15:53:38</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/js/module.js">
+      <publishTime>05/13/2018 23:49:16</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/js/pages/about.js">
+      <publishTime>05/11/2018 20:03:40</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/js/pages/forgot.js">
+      <publishTime>05/11/2018 20:03:40</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/js/pages/signin.js">
+      <publishTime>05/13/2018 23:42:27</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/js/pages/signup.js">
+      <publishTime>05/11/2018 20:03:40</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/module.js">
+      <publishTime>05/22/2018 15:50:50</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/pages/about.js">
+      <publishTime>07/13/2018 22:19:55</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/pages/confirm.js">
+      <publishTime>05/18/2018 12:31:43</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/pages/contact.js">
+      <publishTime>07/13/2018 22:19:55</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/pages/forgot.js">
+      <publishTime>07/13/2018 22:19:55</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/pages/forgot_2.js">
+      <publishTime>07/13/2018 22:19:55</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/pages/forgot_3.js">
+      <publishTime>07/13/2018 22:19:55</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/pages/signin.js">
+      <publishTime>07/13/2018 22:19:55</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/pages/signup.js">
+      <publishTime>07/13/2018 22:19:55</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/pages/signup_2.js">
+      <publishTime>07/13/2018 22:19:55</publishTime>
+    </File>
+    <File Include="Files/modules/prelogin/pages/signup_3.js">
+      <publishTime>07/13/2018 22:19:55</publishTime>
+    </File>
+    <File Include="Files/services/api.js">
+      <publishTime>05/17/2018 18:28:39</publishTime>
+    </File>
+    <File Include="Files/services/bridge.js">
+      <publishTime>05/19/2018 23:37:10</publishTime>
+    </File>
+    <File Include="Files/services/css.js">
+      <publishTime>07/14/2018 18:50:42</publishTime>
+    </File>
+    <File Include="Files/services/data.js">
+      <publishTime>07/15/2018 13:16:03</publishTime>
+    </File>
+    <File Include="Files/services/http.js">
+      <publishTime>05/17/2018 18:28:40</publishTime>
+    </File>
+    <File Include="Files/services/js.js">
+      <publishTime>05/16/2018 17:36:56</publishTime>
+    </File>
+    <File Include="Files/services/lexicon.js">
+      <publishTime>05/17/2018 18:28:40</publishTime>
+    </File>
+    <File Include="Files/services/module.js">
+      <publishTime>05/17/2018 18:28:40</publishTime>
+    </File>
+    <File Include="Files/services/nav.js">
+      <publishTime>05/22/2018 16:22:01</publishTime>
+    </File>
+    <File Include="Files/services/page.js">
+      <publishTime>05/19/2018 19:03:19</publishTime>
+    </File>
+    <File Include="Files/services/path.js">
+      <publishTime>05/17/2018 18:28:40</publishTime>
+    </File>
+    <File Include="Files/services/platform.js">
+      <publishTime>05/17/2018 18:28:40</publishTime>
+    </File>
+    <File Include="Files/services/theme.js">
+      <publishTime>07/15/2018 13:24:17</publishTime>
+    </File>
+    <File Include="Files/services/view.js">
+      <publishTime>05/17/2018 18:28:40</publishTime>
+    </File>
+    <File Include="Files/ui/Banner.js">
+      <publishTime>07/15/2018 13:29:50</publishTime>
+    </File>
+    <File Include="Files/ui/Button.js">
+      <publishTime>05/20/2018 00:35:16</publishTime>
+    </File>
+    <File Include="Files/ui/components/ex/icon.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/ui/components/ex/textbox.js">
+      <publishTime>05/08/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Files/ui/components/SomeComponent.js">
+      <publishTime>05/14/2018 11:14:02</publishTime>
+    </File>
+    <File Include="Files/ui/IconView.js">
+      <publishTime>05/20/2018 15:45:40</publishTime>
+    </File>
+    <File Include="Files/ui/ImageView.js">
+      <publishTime>05/21/2018 10:26:55</publishTime>
+    </File>
+    <File Include="Files/ui/ListView.js">
+      <publishTime>05/20/2018 02:29:35</publishTime>
+    </File>
+    <File Include="Files/ui/MapView.js">
+      <publishTime>07/14/2018 19:06:26</publishTime>
+    </File>
+    <File Include="Files/ui/MenuView.js">
+      <publishTime>07/13/2018 23:04:19</publishTime>
+    </File>
+    <File Include="Files/ui/NavBar.js">
+      <publishTime>07/13/2018 22:19:55</publishTime>
+    </File>
+    <File Include="Files/ui/Panel.js">
+      <publishTime>07/13/2018 22:20:10</publishTime>
+    </File>
+    <File Include="Files/ui/Space.js">
+      <publishTime>05/20/2018 01:58:11</publishTime>
+    </File>
+    <File Include="Files/ui/Textbox.js">
+      <publishTime>05/20/2018 17:32:11</publishTime>
+    </File>
+    <File Include="Files/ui/TextView.js">
+      <publishTime>05/20/2018 02:30:53</publishTime>
+    </File>
+    <File Include="Files/ui/views/ImageView.js">
+      <publishTime>05/13/2018 23:27:54</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>07/15/2018 13:29:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/15/2018 13:21:50</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HybridVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="Hybrid" autoresizesArchivedViewToFullSize="NO" wantsFullScreenLayout="YES" modalPresentationStyle="overFullScreen" id="BYZ-38-t0r" customClass="HybridVC" customModule="zy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98k-MQ-8If">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="ayH-Nk-2pz">
+                                        <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="Qaj-cL-OT4"/>
+                                            <constraint firstAttribute="height" constant="128" id="UNM-Mh-fLo"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.18431372549019609" green="0.50196078431372548" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ayH-Nk-2pz" firstAttribute="centerX" secondItem="98k-MQ-8If" secondAttribute="centerX" id="Lxd-qQ-XAh"/>
+                                    <constraint firstItem="ayH-Nk-2pz" firstAttribute="centerY" secondItem="98k-MQ-8If" secondAttribute="centerY" id="mqX-VS-4Ex"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="98k-MQ-8If" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4ku-Le-McJ"/>
+                            <constraint firstAttribute="bottom" secondItem="98k-MQ-8If" secondAttribute="bottom" id="IWL-67-uyL"/>
+                            <constraint firstAttribute="trailing" secondItem="98k-MQ-8If" secondAttribute="trailing" id="bHj-c0-ncl"/>
+                            <constraint firstItem="98k-MQ-8If" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yTK-jC-9NP"/>
+                        </constraints>
+                        <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                        <viewLayoutGuide key="safeArea" id="9rB-yc-3uu"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="gor-Rh-Kja"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="v" destination="98k-MQ-8If" id="16B-te-FKm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2154" y="-741"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_white.png" width="1206" height="200"/>
+    </resources>
+</document>

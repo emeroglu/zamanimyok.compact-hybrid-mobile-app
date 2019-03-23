@@ -1,0 +1,24 @@
+﻿vl-page view text {
+    position:relative;
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+vl-page vl-button {
+    position: relative;
+    float: right;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #8c1911;
+    color: white;
+    margin: 15px;
+    border-radius: 3px;
+    font-weight: 200;
+    font-size: 15px;
+}

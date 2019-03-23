@@ -1,0 +1,907 @@
+{
+	"info": {
+		"_postman_id": "fe7a29e7-8c48-464d-a13c-82aa32429caa",
+		"name": "zamanımyok",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Brands",
+			"item": [
+				{
+					"name": "All",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"1aa80d89-3bbd-40ab-8525-f0340cbab5ae\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Brands/All",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Brands",
+								"All"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Here are all brands\"\n    },\n    \"payload\": {...}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Brand",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"1aa80d89-3bbd-40ab-8525-f0340cbab5ae\",\n\t\"payload\": {\n\t\t\"brandFk\": 5\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Brands/Brand",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Brands",
+								"Brand"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Here are the models for your brand\"\n    },\n    \"payload\": {...}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"username\": \"emeroglu\",\n\t\"password\": \"1234\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Auth/Login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Auth",
+								"Login"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Welcome :)\"\n    },\n    \"payload\": {\n        \"key\": \"dd4056c1-18fb-4fe0-98ff-d35dcd54ce3d\"\n    }\n}\n\nFAIL\n{\n    \"meta\": {\n        \"status\": \"fail\",\n        \"message\": \"Username or password is invalid\"\n    },\n    \"payload\": {\n        \"key\": null\n    }\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Forgot_Password",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"emeroglu@ku.eddsadu.tr\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Auth/Forgot_Password",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Auth",
+								"Forgot_Password"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"One Time Password generated\"\n    },\n    \"payload\": {}\n}\n\nFAIL\n{\n    \"meta\": {\n        \"status\": \"fail\",\n        \"message\": \"One Time Password could not be sent\"\n    },\n    \"payload\": {}\n}\n\nNOT_FOUND\n{\n    \"meta\": {\n        \"status\": \"not_found\",\n        \"message\": \"Email not found\"\n    },\n    \"payload\": {}\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Check_OTP",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"emeroglu@ku.edu.tr\",\n\t\"otp\": \"69911\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Auth/Check_OTP",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Auth",
+								"Check_OTP"
+							]
+						},
+						"description": "```json\nVALID\n{\n    \"meta\": {\n        \"status\": \"valid\",\n        \"message\": \"OTP is valid\"\n    },\n    \"payload\": {}\n}\n\nOTP_NOT_FOUND\n{\n    \"meta\": {\n        \"status\": \"otp_not_found\",\n        \"message\": \"OTP not found\"\n    },\n    \"payload\": null\n}\n\nEXPIRED\n{\n    \"meta\": {\n        \"status\": \"expired\",\n        \"message\": \"OTP expired\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Update_Password",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"otp\": \"30917\",\n\t\"email\": \"emeroglu@ku.edu.tr\",\n\t\"password\": \"9876\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Auth/Update_Password",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Auth",
+								"Update_Password"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Password changed\"\n    },\n    \"payload\": {}\n}\n\nEMAIL_NOT_FOUND\n{\n    \"meta\": {\n        \"status\": \"email_not_found\",\n        \"message\": \"Email not found\"\n    },\n    \"payload\": null\n}\n\nOTP_NOT_FOUND\n{\n    \"meta\": {\n        \"status\": \"otp_not_found\",\n        \"message\": \"OTP not found\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Verify_Email",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"emeroglu@ku.edu.tr\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Auth/Verify_Email",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Auth",
+								"Verify_Email"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"One Time Password generated\"\n    },\n    \"payload\": {}\n}\n\nFAIL\n{\n    \"meta\": {\n        \"status\": \"fail\",\n        \"message\": \"One Time Password could not be sent\"\n    },\n    \"payload\": null\n}\n\nALLOCATED\n{\n    \"meta\": {\n        \"status\": \"allocated\",\n        \"message\": \"Email is in use\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Kağan Cenan\",\n\t\"email\": \"kcenan@ku.edu.tr\",\n\t\"phone\": \"+90 546 658 9845\",\n\t\"password\": \"1234\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Auth/Signup",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Auth",
+								"Signup"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"New User added\"\n    },\n    \"payload\": {}\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"a08b056a-496e-481d-8beb-3a256e1fdbd3\",\n\t\"payload\": {}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Auth/Logout",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Auth",
+								"Logout"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Instance closed\"\n    },\n    \"payload\": {}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Vehicles",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"b8676bbf-bdc3-43fd-9e73-6e8f0ed80c3f\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/User/Vehicles",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"User",
+								"Vehicles"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Here are all vehicles for your user\"\n    },\n    \"payload\": {...}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "New_Vehicle",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"9507c247-c0e1-4e1f-80ff-6cd984bc5a2f\",\n\t\"payload\": {\n\t\t\"vehicleFk\": 343246,\n\t\t\"plate\": \"34 OLU 986\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/User/New_Vehicle",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"User",
+								"New_Vehicle"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Vehicle added for your user\"\n    },\n    \"payload\": {}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Update_Vehicle",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"a4da1059-3066-4af1-a41c-85046d884a71\",\n\t\"payload\": {\n\t\t\"userVehicleFk\": 2,\n\t\t\"plate\": \"34 AWS 12\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/User/Update_Vehicle",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"User",
+								"Update_Vehicle"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Vehicle detail updated\"\n    },\n    \"payload\": {}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Remove_Vehicle",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"a4da1059-3066-4af1-a41c-85046d884a71\",\n\t\"payload\": {\n\t\t\"userVehicleFk\": 2\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/User/Remove_Vehicle",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"User",
+								"Remove_Vehicle"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Vehicle removed\"\n    },\n    \"payload\": {}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Addresses",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"1aa80d89-3bbd-40ab-8525-f0340cbab5ae\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/User/Addresses",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"User",
+								"Addresses"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Here are all addresses for your user\"\n    },\n    \"payload\": {...}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "New_Address",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"a4da1059-3066-4af1-a41c-85046d884a71\",\n\t\"payload\": {\n\t\t\"name\": \"\",\n\t\t\"value\": \"\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/User/New_Address",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"User",
+								"New_Address"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Address added for your user\"\n    },\n    \"payload\": {}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Update_Address",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"1aa80d89-3bbd-40ab-8525-f0340cbab5ae\",\n\t\"payload\": {\n\t\t\"addressFk\": 1,\n\t\t\"name\": \"Ev\",\n\t\t\"value\": \"hjksdlahdasjklsdklş\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/User/Update_Address",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"User",
+								"Update_Address"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Address updated\"\n    },\n    \"payload\": {}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Remove_Address",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"c997faf5-612f-49de-8e58-47148f016430\",\n\t\"payload\": {\n\t\t\"addressFk\": 2\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/User/Remove_Address",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"User",
+								"Remove_Address"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Address removed\"\n    },\n    \"payload\": {}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Affiliates",
+			"item": [
+				{
+					"name": "All",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/Affiliates/All",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Affiliates",
+								"All"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Here are all affiliates\"\n    },\n    \"payload\": {...}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Member",
+			"item": [
+				{
+					"name": "Me",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"b5907d57-c1b1-4e7b-ac99-1b2bad667d79\",\n\t\"payload\": null\n}"
+						},
+						"url": {
+							"raw": "{{url}}/User/Me",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"User",
+								"Me"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Here you are\"\n    },\n    \"payload\": {...}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Flow",
+			"item": [
+				{
+					"name": "Reservations",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"key\": \"9507c247-c0e1-4e1f-80ff-6cd984bc5a2f\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Flow/Reservations",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Flow",
+								"Reservations"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Here are the reservations for your user\"\n    },\n    \"payload\": {...}\n}\n\nNOT_ALLOWED\n{\n    \"meta\": {\n        \"status\": \"not_allowed\",\n        \"message\": \"This endpoint is only allowed for users\"\n    },\n    \"payload\": null\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Reserve",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"9c7cdeeb-3cee-4b82-aa9f-f77818b88a15\",\n\t\"payload\": {\n\t\t\"affiliateFk\": 1,\n\t\t\"userVehicleFk\": 1,\n\t\t\"takeOverAddressFk\": 1,\n\t\t\"deliveryAddressFk\": 1\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Flow/Reserve",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Flow",
+								"Reserve"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Reservation registered\"\n    },\n    \"payload\": {}\n}\n\nNOT_ALLOWED\n{\n    \"meta\": {\n        \"status\": \"not_allowed\",\n        \"message\": \"This endpoint is only allowed for users\"\n    },\n    \"payload\": null\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Requests",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"key\": \"ae59e3b2-81fa-4eca-9f0b-9e5b22121184\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Flow/Requests",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Flow",
+								"Requests"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Here are the reservation requests for your servant\"\n    },\n    \"payload\": {...}\n}\n\nNOT_ALLOWED\n{\n    \"meta\": {\n        \"status\": \"not_allowed\",\n        \"message\": \"This endpoint is only allowed for servants\"\n    },\n    \"payload\": null\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Approve",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"key\": \"8bcf56ed-bc5e-478a-b8b7-419bb2c081d4\",\n  \"payload\": {\n  \t\"requestFk\": 0\n  }\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Flow/Approve",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Flow",
+								"Approve"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Reservation request approved\"\n    },\n    \"payload\": {}\n}\n\nFAIL\n{\n    \"meta\": {\n        \"status\": \"fail\",\n        \"message\": \"Approval mail could not be sent\"\n    },\n    \"payload\": null\n}\n\nNOT_ALLOWED\n{\n    \"meta\": {\n        \"status\": \"not_allowed\",\n        \"message\": \"This endpoint is only allowed for servants\"\n    },\n    \"payload\": null\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Reject",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"key\": \"8bcf56ed-bc5e-478a-b8b7-419bb2c081d4\",\n  \"payload\": {\n  \t\"requestFk\": 0\n  }\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Flow/Reject",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Flow",
+								"Reject"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Reservation request rejected\"\n    },\n    \"payload\": {}\n}\n\nFAIL\n{\n    \"meta\": {\n        \"status\": \"fail\",\n        \"message\": \"Rejection mail could not be sent\"\n    },\n    \"payload\": null\n}\n\nNOT_ALLOWED\n{\n    \"meta\": {\n        \"status\": \"not_allowed\",\n        \"message\": \"This endpoint is only allowed for servants\"\n    },\n    \"payload\": null\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Approveds",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"999d2424-8568-4358-8ef0-4adad97821d7\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Flow/Approveds",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Flow",
+								"Approveds"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Here are active approved reservations for your servant\"\n    },\n    \"payload\": {...}\n}\n\nNOT_ALLOWED\n{\n    \"meta\": {\n        \"status\": \"not_allowed\",\n        \"message\": \"This endpoint is only allowed for servants\"\n    },\n    \"payload\": null\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "State_Machine",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"999d2424-8568-4358-8ef0-4adad97821d7\",\n\t\"payload\": {\n\t\t\"reservationFk\": 0,\n\t\t\"statusFk\": 0\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Flow/State_Machine",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Flow",
+								"State_Machine"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Reservation status changed\"\n    },\n    \"payload\": {}\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "Upload",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "key",
+									"value": "b2d2bd5d-7689-4d4c-8631-d4e6d642bbfc",
+									"type": "text"
+								},
+								{
+									"key": "reservationFk",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "typeFk",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "index",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "label",
+									"value": "front-left",
+									"type": "text"
+								},
+								{
+									"key": "file",
+									"value": "",
+									"type": "file"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/Flow/Upload",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Flow",
+								"Upload"
+							]
+						},
+						"description": "```json\nSUCCESS\n{\n    \"meta\": {\n        \"status\": \"success\",\n        \"message\": \"Uploaded\"\n    },\n    \"payload\": {}\n}\n\nNOT_ALLOWED\n{\n    \"meta\": {\n        \"status\": \"not_allowed\",\n        \"message\": \"This endpoint is only allowed for servants\"\n    },\n    \"payload\": null\n}\n\nINVALID_KEY\n{\n    \"meta\": {\n        \"status\": \"invalid_key\",\n        \"message\": \"Invalid Instance Key\"\n    },\n    \"payload\": null\n}"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Payment",
+			"item": [
+				{
+					"name": "Cards",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"c527bd23-2dde-4802-aba7-2aafde32801b\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Payment/Cards",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Payment",
+								"Cards"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New_Card",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"c527bd23-2dde-4802-aba7-2aafde32801b\",\n\t\"payload\": {\n\t\t\"name\": \"Garanti\",\n\t\t\"fullname\": \"ERHAN EMRE EROĞLU\",\n\t\t\"number\": \"2536 9458 7532 4578\",\n\t\t\"expirydate\": \"05/18\",\n\t\t\"ccv\": 489\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Payment/New_Card",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Payment",
+								"New_Card"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove_Card",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"key\": \"c527bd23-2dde-4802-aba7-2aafde32801b\",\n\t\"payload\": {\n\t\t\"cardFk\": 1\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{url}}/Payment/Remove_Card",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Payment",
+								"Remove_Card"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

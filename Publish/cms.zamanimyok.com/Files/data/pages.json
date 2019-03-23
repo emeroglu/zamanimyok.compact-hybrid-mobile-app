@@ -1,0 +1,38 @@
+{
+    "search": {
+        "key": "search",
+        "template": "$path.pages.search",
+        "type": "narrow",
+        "title": "$lexicon.search"
+    },
+    "search_result": {
+        "key": "search_result",
+        "template": "$path.pages.search_result",
+        "type": "medium",
+        "title": "$lexicon.search_results"
+    },
+    "page_1": {
+        "key": "page_1",
+        "template": "$path.pages.page_1",
+        "type": "medium",
+        "title": "$lexicon.page_1.title"
+    },
+    "page_2": {
+        "key": "page_2",
+        "template": "$path.pages.page_2",
+        "type": "wide",
+        "title": "$lexicon.page_2.title"
+    },
+    "page_3": {
+        "key": "page_3",
+        "template": "$path.pages.page_3",
+        "type": "small",
+        "title": "$lexicon.page_3.title"
+    },
+    "version": {
+        "key": "version",
+        "template": "$path.pages.version",
+        "type": "medium",
+        "title": "$lexicon.version.title"
+    }
+}

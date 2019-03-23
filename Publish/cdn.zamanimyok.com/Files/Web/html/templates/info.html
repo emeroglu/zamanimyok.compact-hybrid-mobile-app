@@ -1,0 +1,40 @@
+<z-info class="z-ease-750">
+    <shade></shade>
+    <item za-click="$nav.load('version')">
+        <icon>
+            <zc-image zp-path="git"></zc-image>
+        </icon>
+        <text>v1</text>
+    </item>
+    <item>
+        <icon>
+            <zc-image za-if="$platform.os.name == 'OS X'" zp-path="apple"></zc-image>
+            <zc-image za-if="$platform.os.name == 'Windows' && $platform.os.version == '10.0'" zp-path="windows_10"></zc-image>
+        </icon>
+        <text za-if="$platform.os.name == 'OS X'" za-text="$platform.os.name"></text>
+        <text za-if="$platform.os.name == 'Windows'" za-text="$platform.os.name + ' ' + $platform.os.version"></text>
+    </item>
+    <item>
+        <icon>
+            <zc-image za-if="$platform.browser.name == 'Chrome'" zp-path="chrome"></zc-image>
+            <zc-image za-if="$platform.browser.name == 'Firefox'" zp-path="firefox"></zc-image>
+            <zc-image za-if="$platform.browser.name == 'Safari'" zp-path="safari" zp-grayscale="$true"></zc-image>
+            <zc-image za-if="$platform.browser.name == 'Edge'" zp-path="edge"></zc-image>
+            <zc-image za-if="$platform.browser.name == 'Internet Explorer'" zp-path="explorer"></zc-image>
+        </icon>
+        <text za-if="$platform.browser.name != 'Internet Explorer'" za-text="$platform.browser.name"></text>
+        <text za-if="$platform.browser.name == 'Internet Explorer'" za-text="$platform.browser.name + ' ' + $platform.browser.version"></text>
+    </item>
+    <item>
+        <icon>
+            <zc-image zp-path="screen"></zc-image>
+        </icon>
+        <text za-text="$platform.screen.resolution"></text>
+    </item>
+    <item>
+        <icon>
+            <zc-image zp-path="ratio"></zc-image>
+        </icon>
+        <text za-text="$platform.screen.dppx"></text>
+    </item>
+</z-info>

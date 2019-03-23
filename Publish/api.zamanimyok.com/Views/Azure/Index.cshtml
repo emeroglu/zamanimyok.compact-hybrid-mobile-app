@@ -1,0 +1,60 @@
+﻿@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <title>Azure Blob Uploader</title>
+</head>
+<body>
+
+    <select id="container">
+        <option value="placeholder" disabled selected>Container Name...</option>
+        <option value="photoshoot">photoshoot</option>
+    </select>
+
+    <input id="filename" type="text" placeholder="Image Name..." value="" />
+
+    <input id="file" type='file' />
+
+    <button onclick="upload()">Upload</button>
+
+    <script type="text/javascript">
+
+        var container = document.getElementById("container");
+        var filename = document.getElementById("filename");
+        var file = document.getElementById("file");
+
+        function upload() {
+
+            var formData = new FormData();
+            formData.append("folder", container.value);
+            formData.append("name", filename.value);
+            formData.append('file', file.files[0]);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', "/Azure/Upload", true);
+            xhr.onreadystatechange = function () {
+
+                if (xhr.readyState === 4) {
+
+                    alert(xhr.responseText);
+
+                    window.open("https://zamanimyok.blob.core.windows.net/" + container.value + "/" + filename.value, "_blank");
+
+                    container.value = "placeholder";
+                    filename.value = "";
+                    file.value = "";
+
+                }
+
+            };
+
+            xhr.send(formData);
+
+        }
+
+    </script>
+
+</body>
+</html>
